@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-image{
+    height:40vh;
+    width:100vw;
+    display:block;
+    object-fit: cover;
+}
+nav{
+    display:flex;
+    width: 100%;
+    background-color:#ACADAF;
+    align-items: center;
+
+}
+nav a{
+    color:black;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+}
+.navbar li{
+    list-style-type: none;
+    text-align:center;
+    padding:1rem 0;
+
+}
+.navbar li a{
+    padding:1rem;
+}
+.logo{
+    margin-right: auto;
+    margin-left:10px;
+}
+
+.navbar li.active{
+    background-color:white;
+}
+.sectswitch{
+    padding:1rem;
+
+}
+.sectswitch h1{
+    padding: 10px;
+    font-size: 2rem;
+    text-align:center;
+}
